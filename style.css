@@ -1,0 +1,12 @@
+h1, p {
+  font-family: Lato;
+}
+
+.imageShow {
+  width: 150px;
+  height: 150px;
+  background-image: url(https://supermariorun.com/assets/img/hero/hero_chara_mario_update_pc.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+}
