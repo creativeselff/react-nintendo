@@ -2,20 +2,22 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
 import Image from './Image';
+import Toggle from './Toggle';
 import './style.css';
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-     user: 'Mario'
+     user: 'Mario',
+     show: true
     };
   }
 
+
   render() {
 
-    const changeUser = e => 
-      this.setState({user: e.target.value});
+    const changeUser = e => this.setState({user: e.target.value});
     
     const changeSom = e => this.setState({ user: e.target.value })
 
@@ -33,8 +35,8 @@ class App extends Component {
        <h1>Hello I'm {this.state.user}, and I like to change the world</h1>
       
       <Hello user={this.state.user}/>
-      <img className="imageShow"></img>
-      <Image />
+     
+     <Toggle />
       </div>
     );
   }

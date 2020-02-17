@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Hello(props) {
+  
   const showMessage = () => {
     alert('Followed ' + props.user);
     <img className="imageStyle"></img>

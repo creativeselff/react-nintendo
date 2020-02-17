@@ -8,5 +8,8 @@ h1, p {
   background-image: url(https://supermariorun.com/assets/img/hero/hero_chara_mario_update_pc.png);
   background-repeat: no-repeat;
   background-size: cover;
-  display: none;
+}
+
+.imageHide {
+ display: none;
 }
